@@ -1,5 +1,5 @@
 variable "key-name" {
-  default = "first-key-pair"
+  default = "your-key-pair"
 }
 
 variable "git-token" {
@@ -7,9 +7,9 @@ variable "git-token" {
 }
 
 variable "git-name" {
-  default = "AtakanCTN"
+  default = "your-git-username"
 }
 
 variable "hosted-zone" {
-  default = "atakanctn.net"
+  default = "your-Hosted-zone-name"
 }
